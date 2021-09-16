@@ -89,7 +89,7 @@ const App = () => {
           showAdd={showAddTask}
         />
         <Route
-          path="/task-tracker"
+          path="/task-tracker/"
           exact
           render={(props) => (
             <>
