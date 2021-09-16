@@ -89,7 +89,7 @@ const App = () => {
           showAdd={showAddTask}
         />
         <Route
-          path="/tasks"
+          path="/task-tracker"
           exact
           render={(props) => (
             <>
@@ -106,7 +106,7 @@ const App = () => {
             </>
           )}
         />
-        <Route path="/about" component={About} />
+        <Route path="/task-tracker/about" component={About} />
         <Footer />
       </div>
     </Router>
