@@ -89,7 +89,7 @@ const App = () => {
           showAdd={showAddTask}
         />
         <Route
-          path="/"
+          path="/tasks"
           exact
           render={(props) => (
             <>
