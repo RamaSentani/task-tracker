@@ -35,7 +35,7 @@ const AddTask = ({ onAdd }) => {
         <label>Day & Time</label>
         <input
           type="text"
-          placeholder="Add Task"
+          placeholder="Add Day / Time"
           value={day}
           onChange={(e) => setDay(e.target.value)}
         />
